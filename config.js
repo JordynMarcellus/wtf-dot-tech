@@ -9,7 +9,7 @@ const config = {
       "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
     logoLink: "https://learn.hasura.io",
     title: "WTF.tech",
-    githubUrl: "https://github.com/hasura/gatsby-gitbook-boilerplate",
+    githubUrl: "https://github.com/JordynMarcellus/wtf-dot-tech",
     helpUrl: "",
     tweetText: "",
     links: [{ text: "", link: "" }],
