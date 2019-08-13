@@ -26,7 +26,7 @@ const config = {
       "A place for busting technology buzzwords. Editable by you on Github!",
     ogImage: null,
     docsLocation:
-      "https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content",
+      "https://github.com/JordynMarcellus/wtf-dot-tech/tree/master/content",
     favicon: "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg",
   },
 };
