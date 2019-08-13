@@ -1,13 +1,13 @@
 const config = {
   gatsby: {
     pathPrefix: "/",
-    siteUrl: "https://learn.hasura.io",
+    siteUrl: "https://wtf-techsplainer.io",
     gaTrackingId: null,
   },
   header: {
     logo:
       "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
-    logoLink: "https://learn.hasura.io",
+    logoLink: "https://wtf-techsplainer.io",
     title: "WTF.tech",
     githubUrl: "https://github.com/JordynMarcellus/wtf-dot-tech",
     helpUrl: "",

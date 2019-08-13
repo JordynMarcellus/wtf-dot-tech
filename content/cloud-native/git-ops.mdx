@@ -1,0 +1,20 @@
+---
+title: "GitOps"
+metaTitle: "Learn more about a modern continuous deployment workflow for your services"
+metaDescription: "GitOps is a fancy name for a simple concept -- using Git as the source of truth for your infrastructure"
+---
+
+## WTF?
+
+GitOps is a methodology proposed initially by [Alexis Richardson](https://www.weave.works/blog/gitops-operations-by-pull-request "Alexis Richardson's original article on the subject") as a way of using Git as the single source of truth for a production system. To ensure consistency with the production system, diffing tools would regularly scan the system and identify any kinds of small changes made to the production system by operators.
+
+Richardson specifically uses the term to refer to working with Kubernetes, but these kinds of principles can be extended to other tools according to [CloudBees' Juni Mukherjee](https://www.cloudbees.com/blog/gitops-dev-dash-ops "GitOps: Dev with a dash of Ops!" on CloudBees.com")
+
+## Why?
+
+This enables simpler roll-backs/roll-forwards and allows for rebuilding entire clusters/infrastructures using declarative tools like Terraform and Kubernetes. This enables more reliable, speedy deployments and ensures when things are negatively impacted we have source-controlled configurations that allow us to quickly recover.
+
+## Resources
+
+[WeaveWorks, Alexis Richardson: "GitOps: operations by pull request"](https://www.weave.works/blog/gitops-operations-by-pull-request "Original article on WeaveWorks about GitOps methodology")
+[Cloudbees, Juni Mukherjee: "GitOps: Dev with a dash of Ops!"](https://www.cloudbees.com/blog/gitops-dev-dash-ops "Cloudbees article on GitOps")
